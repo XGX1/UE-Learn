@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.25",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HttpEx",
+			"Enabled": false
+		},
+		{
+			"Name": "SimpleHTTP",
+			"Enabled": true,
+			"MarketplaceURL": "https://www.aboutcg.org/courseDetails/764/introduce"
+		}
+	]
+}
